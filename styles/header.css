@@ -109,7 +109,9 @@
     width: auto;
 }
 
-@media  and (min-width:1728px) {
+
+/*VERSÃO DESKTOP*/
+@media screen and (min-width:1728px){
     .container__link{
         display: flex;
         align-items: center;
@@ -123,8 +125,8 @@
     .opções{
         margin-right: auto;
     }
+
     .container__texto{
         display: block;
     }
-    
 }
